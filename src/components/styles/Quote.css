@@ -25,6 +25,12 @@ article {
   font-size: 14px;
 }
 
+.quote-area {
+  height: 10rem;
+  display: inline-flex;
+  align-items: center;
+}
+
 .quote-text {
   color: var(--light-cyan);
   font-size: 28px;

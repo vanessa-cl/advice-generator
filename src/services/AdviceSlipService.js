@@ -7,7 +7,7 @@ class AdviceSlipService {
    */
 
   async getRandomAdvice() {
-    return fetch(`${this.baseUrl}/advice`);
+    return fetch(`${this.baseUrl}/advice`).then((response) => response.json());
   }
 }
 
