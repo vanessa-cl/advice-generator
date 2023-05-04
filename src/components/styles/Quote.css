@@ -1,0 +1,43 @@
+article,
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  overflow: hidden;
+}
+
+.quote-container {
+  background-color: var(--dark-grayish-blue);
+  border-radius: 15px;
+  width: 30rem;
+  font-family: var(--quote-font);
+  padding: 2rem 2.8rem;
+  height: 16rem;
+}
+
+.quote-title {
+  color: var(--neon-green);
+  letter-spacing: 0.4rem;
+  font-size: 14px;
+}
+
+.quote-text {
+  color: var(--light-cyan);
+  font-size: 28px;
+  font-weight: bold;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.pattern-divider {
+  margin-bottom: 1.2rem;
+}
+
+.dice-button-container {
+  position: relative;
+  bottom: 2rem;
+}

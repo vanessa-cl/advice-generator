@@ -1,0 +1,11 @@
+.dice-button {
+  background-color: var(--neon-green);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 60px;
+}
