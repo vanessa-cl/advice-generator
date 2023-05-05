@@ -16,7 +16,7 @@ article {
   width: 30rem;
   font-family: var(--quote-font);
   padding: 2rem 2.8rem;
-  height: 16rem;
+  height: auto;
 }
 
 .quote-title {
@@ -26,7 +26,7 @@ article {
 }
 
 .quote-area {
-  height: 10rem;
+  height: auto;
   display: inline-flex;
   align-items: center;
 }
@@ -40,7 +40,7 @@ article {
 }
 
 .pattern-divider {
-  margin-bottom: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .dice-button-container {
