@@ -29,6 +29,7 @@ article {
   height: auto;
   display: inline-flex;
   align-items: center;
+  transition: all 10s ease-out;
 }
 
 .quote-text {
@@ -37,6 +38,11 @@ article {
   font-weight: bold;
   margin: 2rem 0;
   text-align: center;
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
 }
 
 .pattern-divider {
@@ -46,4 +52,13 @@ article {
 .dice-button-container {
   position: relative;
   bottom: 2rem;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
