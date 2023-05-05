@@ -3,6 +3,7 @@ import DiceButton from "./DiceButton";
 import { adviceSlipService } from "../services/AdviceSlipService";
 import "./styles/Quote.css";
 import pattern from "../assets/images/pattern-divider-desktop.svg";
+import SearchAdviceInput from "./SearchAdviceInput";
 
 export default function Quote() {
   const [slip, setSlip] = useState({});
@@ -20,12 +21,13 @@ export default function Quote() {
 
   return (
     <article>
+      <SearchAdviceInput />
       <div className="quote-container">
         <h1 className="quote-title">ADVICE #{slip?.id}</h1>
         <div className="quote-area">
           <p className="quote-text">&quot;{slip?.advice}&quot;</p>
         </div>
-        <img className="pattern-divider" src={pattern} />
+        <img className="pattern-divider" src={pattern} alt="pattern-divider" />
       </div>
       <div className="dice-button-container">
         <DiceButton getAdvice={getAdvice} />
