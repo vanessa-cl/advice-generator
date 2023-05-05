@@ -5,6 +5,7 @@ import "./styles/Quote.css";
 import pattern from "../assets/images/pattern-divider-desktop.svg";
 import SearchAdviceInput from "./SearchAdviceInput";
 import LoadingDots from "./LoadingDots";
+import ErrorMessage from "./ErrorMessage";
 
 const INITIAL_SLIP_STATE = {
   id: null,
@@ -13,6 +14,7 @@ const INITIAL_SLIP_STATE = {
 
 export default function Quote() {
   const [slip, setSlip] = useState(INITIAL_SLIP_STATE);
+  const [showErrorMessage, setShowErrorMessage] = useState(false);
 
   useEffect(() => {
     getAdvice();
@@ -22,8 +24,11 @@ export default function Quote() {
     setSlip(INITIAL_SLIP_STATE);
     return await adviceSlipService
       .getRandomAdvice()
-      .then((response) => setSlip(response.slip))
-      .catch((error) => console.log(error));
+      .then((response) => {
+        setSlip(response.slip);
+        setShowErrorMessage(false);
+      })
+      .catch(() => setShowErrorMessage(true));
   };
 
   return (
@@ -43,6 +48,7 @@ export default function Quote() {
       <div className="dice-button-container">
         <DiceButton getAdvice={getAdvice} />
       </div>
+      {showErrorMessage ? <ErrorMessage /> : <></>}
     </article>
   );
 }

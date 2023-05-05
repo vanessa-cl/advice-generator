@@ -20,7 +20,6 @@ export default function SearchAdviceInput() {
 
   return (
     <>
-      {/* {console.log(query)} */}
       <input
         className="search-advice-input"
         type="text"
