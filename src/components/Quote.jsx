@@ -3,7 +3,6 @@ import DiceButton from "./DiceButton";
 import { adviceSlipService } from "../services/AdviceSlipService";
 import "./styles/Quote.css";
 import pattern from "../assets/images/pattern-divider-desktop.svg";
-import SearchAdviceInput from "./SearchAdviceInput";
 import LoadingDots from "./LoadingDots";
 import ErrorMessage from "./ErrorMessage";
 
@@ -33,7 +32,6 @@ export default function Quote() {
 
   return (
     <article>
-      <SearchAdviceInput />
       <div className="quote-container">
         <h1 className="quote-title">ADVICE #{slip?.id}</h1>
         <div className="quote-area">
