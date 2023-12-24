@@ -1,3 +1,14 @@
+main {
+  height: 100%;
+  background-color: var(--dark-blue);
+}
+
+article {
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+main,
 article,
 .quote-container {
   display: flex;
@@ -6,13 +17,8 @@ article,
   align-items: center;
 }
 
-article {
-  overflow: hidden;
-}
-
 .quote-container {
   background-color: var(--dark-grayish-blue);
-  border-radius: 15px;
   width: 30rem;
   font-family: var(--quote-font);
   padding: 2rem 2.8rem;
@@ -60,5 +66,19 @@ article {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  article {
+    width: 90%;
+  }
+
+  .quote-container {
+    width: 80%;
+  }
+
+  .pattern-divider {
+    width: 18rem;
   }
 }

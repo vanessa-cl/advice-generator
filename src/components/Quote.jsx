@@ -31,22 +31,28 @@ export default function Quote() {
   };
 
   return (
-    <article>
-      <div className="quote-container">
-        <h1 className="quote-title">ADVICE #{slip?.id}</h1>
-        <div className="quote-area">
-          {slip.advice ? (
-            <p className="quote-text">&quot;{slip?.advice}&quot;</p>
-          ) : (
-            <LoadingDots />
-          )}
+    <main>
+      <article>
+        <div className="quote-container">
+          <h1 className="quote-title">ADVICE #{slip?.id}</h1>
+          <div className="quote-area">
+            {slip.advice ? (
+              <p className="quote-text">&quot;{slip?.advice}&quot;</p>
+            ) : (
+              <LoadingDots />
+            )}
+          </div>
+          <img
+            className="pattern-divider"
+            src={pattern}
+            alt="pattern-divider"
+          />
         </div>
-        <img className="pattern-divider" src={pattern} alt="pattern-divider" />
-      </div>
+        {showErrorMessage ? <ErrorMessage /> : <></>}
+      </article>
       <div className="dice-button-container">
         <DiceButton getAdvice={getAdvice} />
       </div>
-      {showErrorMessage ? <ErrorMessage /> : <></>}
-    </article>
+    </main>
   );
 }

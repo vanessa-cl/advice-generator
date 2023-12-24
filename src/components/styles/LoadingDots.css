@@ -15,14 +15,17 @@
   animation: load 1.2s infinite linear calc(var(--_s, 0) * 0.4s);
   transform: translate(calc(var(--_s, 0) * 150%));
 }
+
 .loading-dots:before,
 .loading-dots:after {
   content: "";
   grid-area: 1/1;
 }
+
 .loading-dots:before {
   --_s: -1;
 }
+
 .loading-dots:after {
   --_s: 1;
 }
