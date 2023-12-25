@@ -1,3 +1,10 @@
+export const MOCK_ADVICE = {
+  slip: {
+    id: 123,
+    advice: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+};
+
 class AdviceSlipService {
   baseUrl = "https://api.adviceslip.com";
 
