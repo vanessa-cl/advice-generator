@@ -3,6 +3,7 @@
   src: url("./assets/fonts/Manrope-ExtraBold.ttf");
   font-weight: 800;
   font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -13,6 +14,7 @@
   --dark-blue: hsl(218, 23%, 16%);
   --quote-size: 28px;
   --quote-font: "Manrope", sans-serif;
+  font-family: var(--quote-font), sans-serif;
 }
 
 *,

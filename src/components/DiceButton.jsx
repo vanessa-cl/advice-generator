@@ -9,7 +9,7 @@ export default function DiceButton(props) {
       className="dice-button"
       onClick={props.getAdvice}
     >
-      <img src={dice} alt="dice" />
+      <img width="24px" height="24px" src={dice} alt="dice" />
     </button>
   );
 }

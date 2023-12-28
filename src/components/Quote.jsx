@@ -43,6 +43,8 @@ export default function Quote() {
             )}
           </div>
           <img
+            width="444px"
+            height="16px"
             className="pattern-divider"
             src={pattern}
             alt="pattern-divider"
