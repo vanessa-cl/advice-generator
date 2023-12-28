@@ -146,7 +146,7 @@ Each component in the app was tested to ensure the full functionality of the app
 
 ## 🔍 Other Links
 
-- Deploy
+- [Deploy](https://advice-generator-eta-seven.vercel.app/)
 
 ## 👩 Author
 
@@ -263,7 +263,7 @@ Cada componente no aplicativo foi testado para garantir a funcionalidade complet
 
 ## 🔍 Outros Links
 
-- Deploy
+- [Deploy](https://advice-generator-eta-seven.vercel.app/)
 
 ## 👩 Autora
 
