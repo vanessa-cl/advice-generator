@@ -1,6 +1,4 @@
-# Frontend Mentor - Advice generator app solution
-
-<hr>
+# Frontend Mentor - Advice Generator app solution
 
 ## Table of contents
 
@@ -13,13 +11,10 @@
     - [Layout](#layout)
     - [Features](#features)
 - [My Process](#-my-process)
-  - [Folder Structure](#-folder-structure)
   - [Built With](#-built-with)
+  - [Folder Structure](#-folder-structure)
   - [Test Coverage](#-test-coverage)
   - [Lighthouse Results](#-lighthouse-results)
-  - [Future Implementations](#-future-implementations)
-- [Other Links](#-other-links)
-- [Author](#-author)
 
 ### Português
 
@@ -30,19 +25,19 @@
     - [Leiaute](#leiaute)
     - [Funcionalidades](#funcionalidades)
 - [Meu Processo](#-meu-processo)
-  - [Estrutura de Pastas](#-estrutura-de-pastas)
   - [Desenvolvido com](#-desenvolvido-com)
+  - [Estrutura de Pastas](#-estrutura-de-pastas)
   - [Cobertura de Testes](#-cobertura-de-testes)
   - [Resultados do Lighthouse](#-resultados-do-lighthouse)
-  - [Implementações Futuras](#-implementações-futuras)
-- [Outros Links](#-outros-links)
-- [Autora](#-autora)
+
+- [Links](#-links)
+- [Autora/Author](#-autora/author)
 
 ## ✨ Overview
 
 ### 🦸 The Challenge
 
-This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). <strong>The goal of the challenge is to build an application that allows users to access a web page capable of generating random advice</strong>, following the proposed layout and functionalities.
 
 In this project, users should be able to:
 
@@ -78,13 +73,6 @@ Visit [http://localhost:5173](http://localhost:5173) in your browser to view the
 
 ## 📚 My process
 
-### 📂 Folder Structure
-
-- **src**:
-  - **assets**: Stores static resources such as images, fonts, etc.
-  - **components**: Comprised of reusable UI components and application-specific components.
-  - **services**: Comprised of class files with methods for making REST API requests.
-
 ### 👩‍🔧 Built With
 
 #### Code Editor
@@ -94,6 +82,7 @@ Visit [http://localhost:5173](http://localhost:5173) in your browser to view the
 #### Environment
 
 - Node v20.9.0
+- Vite v5.0.0
 
 #### Code Style
 
@@ -109,6 +98,13 @@ Visit [http://localhost:5173](http://localhost:5173) in your browser to view the
 - Jest
 - React Testing Library
 
+### 📂 Folder Structure
+
+- **src**:
+  - **assets**: Stores static resources such as images, fonts, etc.
+  - **components**: Comprised of reusable UI components and application-specific components.
+  - **services**: Comprised of class files with methods for making REST API requests.
+
 ### 👩‍💻 Test Coverage
 
 Each component in the app was tested to ensure the full functionality of the application.
@@ -121,8 +117,8 @@ Each component in the app was tested to ensure the full functionality of the app
 
 #### Performance
 
-- **Score: 89**
-- **Description:** The performance score reflects how quickly the application loads and responds to user interactions. A score of 89 indicates solid performance, but there is room for optimizations to further enhance speed.
+- **Score: 100**
+- **Description:** The performance score reflects how quickly the application loads and responds to user interactions. A score of 100 indicates excellent performance, meaning that the application is fast and efficient.
 
 #### Accessibility
 
@@ -136,22 +132,8 @@ Each component in the app was tested to ensure the full functionality of the app
 
 #### SEO
 
-- **Score: 91**
-- **Description:** The SEO score reflects how well the application is optimized for search engines. A score of 91 suggests solid optimization, but there may be specific areas that can be improved to enhance visibility in search results.
-
-### 📌 Future Implementations
-
-- **Performance:** Analyze and optimize resources, such as images and scripts, to further enhance performance.
-- **SEO:** Identify improvement opportunities in content structure and meta tags to optimize SEO.
-
-## 🔍 Other Links
-
-- [Deploy](https://advice-generator-eta-seven.vercel.app/)
-
-## 👩 Author
-
-- Frontend Mentor - [@vanessa-cl](https://www.frontendmentor.io/profile/vanessa-cl)
-- Linkedin - [Vanessa Lima](https://www.linkedin.com/in/vanessa-lima20-/)
+- **Score: 100**
+- **Description:** The SEO score reflects how well the application is optimized for search engines. A score of 100 indicates effective optimization, aiding in improving visibility in search results.
 
 <hr>
 
@@ -159,9 +141,9 @@ Each component in the app was tested to ensure the full functionality of the app
 
 ### 🦸 O Desafio
 
-Essa é uma solução para o desafio Advice generator app no Frontend Mentor. Os desafios do Frontend Mentor ajudam a aprimorar suas habilidades de codificação ao construir projetos realistas.
+Essa é uma solução para o desafio [Advice generator no Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). <strong>O objetivo do desafio é construir uma aplicação que permita que os usuários acessem uma página da web capaz de gerar um conselho aleatório</strong>, seguindo o layout e as funcionalidades propostas.
 
-Neste projeto, os usuários devem ser capazes de:
+Neste projeto, <strong>os usuários devem ser capazes de:</strong>
 
 - Visualizar o layout ideal para o aplicativo, dependendo do tamanho da tela de seu dispositivo.
 - Ver estados de hover para todos os elementos interativos na página.
@@ -195,13 +177,6 @@ Acesse [http://localhost:3000](http://localhost:3000) no seu navegador para visu
 
 ## 📚 Meu Processo
 
-### 📂 Estrutura de Pastas
-
-- **src:**
-  - **assets**: armazena recursos estáticos como imagens, fontes e etc.
-  - **components**: composta por componentes reutilizáveis de UI e componentes específicos da aplicação.
-  - **services**: composta por arquivos de classes com métodos de requisição às APIs REST.
-
 ### 👩‍🔧 Desenvolvido com
 
 #### Editor de Código
@@ -226,6 +201,13 @@ Acesse [http://localhost:3000](http://localhost:3000) no seu navegador para visu
 - Jest
 - React Testing Library
 
+### 📂 Estrutura de Pastas
+
+- **src:**
+  - **assets**: armazena recursos estáticos como imagens, fontes e etc.
+  - **components**: composta por componentes reutilizáveis de UI e componentes específicos da aplicação.
+  - **services**: composta por arquivos de classes com métodos de requisição às APIs REST.
+
 ### 👩‍💻 Cobertura de Testes
 
 Cada componente no aplicativo foi testado para garantir a funcionalidade completa da aplicação.
@@ -238,8 +220,8 @@ Cada componente no aplicativo foi testado para garantir a funcionalidade complet
 
 #### Performance
 
-- **Pontuação: 89**
-- **Descrição:** A pontuação de performance reflete o quão rapidamente a aplicação carrega e responde às interações do usuário. A pontuação de 89 indica uma performance sólida, mas há espaço para otimizações para melhorar ainda mais a velocidade.
+- **Pontuação: 100**
+- **Descrição:** A pontuação de performance reflete o quão rapidamente a aplicação carrega e responde às interações do usuário. Uma pontuação de 100 indica um desempenho excelente, significando que a aplicação é rápida e eficiente.
 
 #### Acessibilidade
 
@@ -253,19 +235,14 @@ Cada componente no aplicativo foi testado para garantir a funcionalidade complet
 
 #### SEO
 
-- **Pontuação: 91**
-- **Descrição:** A pontuação de SEO reflete o quão bem a aplicação é otimizada para os motores de busca. Uma pontuação de 91 sugere uma otimização sólida, mas pode haver áreas específicas que podem ser aprimoradas para melhorar a visibilidade nos resultados de pesquisa.
+- **Pontuação: 100**
+- **Descrição:** A pontuação de SEO reflete o quão bem a aplicação é otimizada para os motores de busca. Uma pontuação de 100 indica uma otimização eficaz, ajudando a melhorar a visibilidade nos resultados de pesquisa.
 
-### 📌 Implementações Futuras
-
-- **Performance:** Analisar e otimizar recursos, como imagens e scripts, para melhorar ainda mais o desempenho.
-- **SEO:** Identificar oportunidades de melhoria na estrutura do conteúdo e nas meta tags para otimizar o SEO.
-
-## 🔍 Outros Links
+## 🔍 Links
 
 - [Deploy](https://advice-generator-eta-seven.vercel.app/)
 
-## 👩 Autora
+## 👩 Autora/Author
 
 - Frontend Mentor - [@vanessa-cl](https://www.frontendmentor.io/profile/vanessa-cl)
 - Linkedin - [Vanessa Lima](https://www.linkedin.com/in/vanessa-lima20-/)
